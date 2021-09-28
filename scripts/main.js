@@ -1,34 +1,21 @@
 function areaCirculo(raio) {
-    return Math.round(3.14159265 * (raio * raio));
-    // return 'ainda não resolvido';
+    return 'ainda não resolvido';
 }
 
 function fahrenheitParaCelsius(graus) {
-    return Math.round((graus - 32) * 5/9);
+    return 'ainda não resolvido';
 }
 
 function maiorNumero(n1, n2) {
-    return Math.max(n1, n2);
+    return 'ainda não resolvido';
 }
 
 function sinal(n1) {
-    if(n1 === 0) {
-        return 0;
-    }
-    return n1/Math.abs(n1);
+    return 'ainda não resolvido';
 }
 
 function inteirosEntre(n1, n2) {
-    let maior = Math.max(n1, n2);
-    let menor = Math.min(n1, n2);
-
-    let colecao = new Array();
-    let counter = 0;
-    for(let i = menor; i < maior; i++) {
-        colecao[counter] = i;
-        counter++;
-    }
-    return colecao;
+    return 'ainda não resolvido';
 }
 
 /* Não mexa em nada aqui embaixo, pois pode dar problema... */

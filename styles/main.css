@@ -2,6 +2,14 @@
 	font-family: Verdana;
 }
 
+.green {  
+  color: #7ECC49;
+}
+
+.red {
+  color: #FF8D85;
+}
+
 h1, h2, h3, p {
 	text-align: left;
 }
@@ -14,8 +22,8 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
   text-align: right;
+  border: 1px solid #dddddd;
   padding: 8px;
 }
 
@@ -27,7 +35,7 @@ tr:nth-child(even) {
   /*margin-left: auto;
   margin-right: auto;*/
   margin: auto;
-  width: 50%;
+  width: 60%;
   border: 3px solid black;
   padding: 10px;
 }
