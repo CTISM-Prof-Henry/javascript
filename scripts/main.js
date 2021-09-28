@@ -4,7 +4,7 @@ function areaCirculo(raio) {
 }
 
 function fahrenheitParaCelsius(graus) {
-    return (graus - 32) * 5/9;
+    return Math.round((graus - 32) * 5/9);
 }
 
 function maiorNumero(n1, n2) {
@@ -52,6 +52,21 @@ document.getElementById('ex_1_answer_3').textContent = areaCirculo(3);
 document.getElementById('ex_1_answer_4').textContent = areaCirculo(4);
 document.getElementById('ex_1_answer_5').textContent = areaCirculo(5);
 checkEqual(1, 5);
+
+document.getElementById('ex_2_answer_1').textContent = fahrenheitParaCelsius(100);
+document.getElementById('ex_2_answer_2').textContent = fahrenheitParaCelsius(0);
+document.getElementById('ex_2_answer_3').textContent = fahrenheitParaCelsius(-273);
+checkEqual(2, 3);
+
+document.getElementById('ex_3_answer_1').textContent = maiorNumero(1, 2);
+document.getElementById('ex_3_answer_2').textContent = maiorNumero(2, 1);
+document.getElementById('ex_3_answer_3').textContent = maiorNumero(0, 0);
+checkEqual(3, 3);
+
+document.getElementById('ex_4_answer_1').textContent = sinal(0);
+document.getElementById('ex_4_answer_2').textContent = sinal(-123);
+document.getElementById('ex_4_answer_3').textContent = sinal(365);
+checkEqual(4, 3);
 
 document.getElementById('ex_5_answer_1').textContent = inteirosEntre(0, 10);
 document.getElementById('ex_5_answer_2').textContent = inteirosEntre(0, 11);
